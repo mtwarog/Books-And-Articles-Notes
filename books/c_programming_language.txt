@@ -1,0 +1,25 @@
+Introduction (overview of language)
+- C stem from BCPL by Martin Richard
+- B language was created by Ken Thompson in 1970 for first UNIX on PDP-7
+- Any expression can be statement
+- Pointers provides machine independent address arithmetic
+- ANSI C standard was completed in 1988
+- Most of C standard library is modelled on UNIX IO library
+- C is not strongly-typed language
+- Standard library - provides a common interface to the operating system
+
+- stdio.h - Standard Input Output library
+- basic data types
+  - char     character - a single byte
+  - short    short integer
+  - long     long integer
+  - double   double-precision floating point
+  - (range of ints and floats depends on the machine)
+  - there are also: arrays, structures and unions of these basic data types
+- page 14 - Symbolic Constants
+  - Kernighan mentions Magic Numbers Antipattern
+  - Symbolic Constants:
+    - #define name replacementText
+    - any occurance of name will be replaced with replacementText
+- a text stream is a sequence of characters divided into lines
+  - getchar() and putchar() are the simplest stream methods
