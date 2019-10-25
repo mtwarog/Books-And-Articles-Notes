@@ -1,0 +1,5 @@
+# Compile-time function execution (a.k.a general constant expressions)  
+* is the ability of a compiler, that would normally compile a function to machine code and execute it at run time, to execute the function at compile time. This is possible if the arguments to the function are known at compile time, and the function does not make any reference to or attempt to modify any global state (is a pure function).
+* saves time on run-time execution, because function is already evaluated
+* If the value of only some of the arguments are known, the compiler may still be able to perform some level of compile-time function execution (partial evaluation), possibly producing more optimized code than if no arguments were known.
+* Example: The Lisp macro system is an early example of the use of compile-time evaluation of user-defined functions in the same language.
