@@ -1,0 +1,3 @@
+# Paul Graham (Y Combinator co-founder) on ML languages family
+* Most hackers I know have been disappointed by the ML family. Languages with static typing would be more suitable if programs were something you thought of in advance, and then merely translated into code. But that's not how programs get written.
+* The inability to have lists of mixed types is a particularly crippling restriction. It gets in the way of exploratory programming (it's convenient early on to represent everything as lists), and it means you can't have real macros.
